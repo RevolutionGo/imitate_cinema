@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="top">
+   <image class="image_top"src="../../images/ordercomplete.png" style="width:120px;height:80px;"></image>
+   <text class="text1">订单支付完成</text>
+   <text  class="text2">¥{{totalPrice}}</text>
+  </view>
+  <view class="bottom">
+    <button class="button1" bindtap='checkorder'>查看订单</button>
+    <button  class="button2" bindtap='tohome'>返回首页</button>
+
+  </view>
+</view>

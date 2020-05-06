@@ -1,0 +1,56 @@
+<!--miniprogram/pages/chooseTime/chooseTime.wxml-->
+<view class="container">
+    <view class="up"style="background:url('https://weever01.oss-cn-hangzhou.aliyuncs.com/sjx_other_temp/background1.jpg')">
+        <view class="up-img">
+            <image class="img" src="{{movie.movieImgUrl}}" mode="scaleToFill" >
+            
+            </image>
+        </view>
+        <view class="introduction-u">
+            <view class="box">
+            <view class="name">
+                {{movie.movieName}}
+            </view>
+            <view class="grade">
+                {{movie.score}}分
+            </view>
+            </view>
+        </view>
+        <view class="introduction-d">
+            {{movie.duration}}分钟|{{movie.movieType}}|{{movie.stars}}
+        </view>
+    </view>
+    <view class="down">
+        <view class="down-u">
+            <view class="{{index==ind?'red-date':'date'}}" wx:for="{{date}}" wx:key="{{index}}" data-id="{{index}}" bindtap="chooseDate">
+                {{item}}
+            </view>
+        </view>
+        <view class="down-d">
+            <view class="time" wx:for="{{time}}" wx:key="{{index}}">
+                <view class="down-l">
+                    <view class="down-l-l">
+                        {{item.startTime}}    
+                    </view>
+                    <view class="down-l-r">
+                        <view>
+                            2D国语
+                        </view>
+                        <view>
+                            {{item.hallId}}号厅
+                        </view>
+                    </view>
+                </view>
+                <view class="down-r">
+                    <button class="buy" data-timeId="{{item.timeId}}" data-movieId="{{movie.movieId}}" bindtap="toChooseSeat">
+                        购票
+                    </button>
+                    <view class="down-r-l">
+                        ¥{{item.price}}    
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <image src="../images/eat.jpg" class="image"></image>
+</view>

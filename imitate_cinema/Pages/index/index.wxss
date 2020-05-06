@@ -1,0 +1,247 @@
+/**index.wxss**/
+.on{
+  color: #c64740
+}
+.two{
+  display: flex;
+
+  width: 100%;
+  height: 120rpx;
+  background: white;
+}
+.top_image{
+  height:350rpx;
+  width:750rpx;
+}
+.two-one{
+  background-color: white;
+  text-align:center;
+  width: 25%;
+  height: 80rpx;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  font-size: 13px;
+  font-weight: bold;
+  
+
+}
+.two-one-a{
+  background-color: white;
+  text-align:center;
+  width: 25%;
+  height: 80rpx;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  font-size: 13px;
+  font-weight: bold;
+ 
+}
+.two-one-a::after{
+  border: none;
+
+}
+.two-one::after{
+  border: none;
+}
+.two-line{
+    height: 4rpx;
+    width: 50px;
+    text-align: center;
+    background: #c64740;
+}
+.lunbo{
+    margin-top: -20rpx;
+    width: 100%;
+    height: 180rpx;
+}
+.lunbo image{
+    width:100%;
+}
+
+.ranking{
+  
+    width: 100%;
+    background-color: white;
+}
+.ranking-title{
+    text-align: center;
+    font:58rpx;
+    font-weight: 600;
+    margin-top:20rpx;
+    margin-bottom:20rpx;
+}
+.ranking-top{
+    font-size:32rpx;
+    font-weight: 500;
+    margin-bottom: 70rpx;
+}
+.ranking-top-grade{
+    position: absolute;
+    margin-left: 67%;
+}
+.ranking-top-peoplenumber{
+    position: absolute;
+    margin-left: 78%;
+}
+.ranking-list{
+    border-radius: 30rpx;
+    width: 100%;
+    height:200rpx;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.ranking-list::after{
+  border: none;
+}
+.ranking-list-pic{
+    width: 130rpx;
+    height: 170rpx;
+    align-self: center;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 7px;
+}
+.ranking-list-teachername{
+  display: flex;
+    position: absolute;
+    font-size:40rpx;
+    font-weight: bold;
+    margin-top:25rpx;
+    margin-left: 180rpx;
+  
+}
+.ranking-list-3d{
+margin-top: -24rpx;
+    width:100rpx;
+    height: 100rpx;
+}
+.ranking-list-teachclass{
+  padding: 0;
+    position: absolute;
+    margin-top:90rpx;
+    margin-left:180rpx;
+    font-size:25rpx;
+    font-weight:500;
+ color: #E51C23;
+}
+.ranking-list-grade{
+    /* align-self: center;
+    margin-left: 50%;
+    font-size:32rpx;
+    font-weight: 500; */
+    color: gray;
+     position: absolute;
+    margin-top:133rpx;
+    margin-left:180rpx;
+    font-size:28rpx;
+    display: flex;
+  width: 350rpx;
+}
+.ranking-list-grade2{
+  color: red;
+  margin-top:6rpx;
+}
+.ranking-list-buy{
+    position: absolute;
+     margin-top: 11%; 
+    margin-left: 76%;
+}
+
+.ranking-line{
+    height: 1rpx;
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    background: linear-gradient(left,rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.name-content {
+  position: absolute;
+    margin-top:90rpx;
+    margin-left:180rpx;
+    font-size:28rpx;
+  width: 350rpx;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -webkit-box-orient:vertical;
+  word-break:break-all;
+  color: #8B8682;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 10rpx 30rpx;
+    height: 150rpx;
+    font-size: 20rpx
+}
+
+.card-in {
+    width: 25%;
+    padding: 15rpx 20rpx;
+    height: 150rpx;
+    text-align: center;
+    
+    
+}
+
+.card-img {
+  padding: 7rpx;
+    height: 75rpx;
+    width: 75rpx;
+    border-radius: 50%;
+    border: 1rpx solid white;
+
+}
+.card-text {
+    margin-top:15rpx; 
+    
+}
+.btn1 {
+  width: 140rpx;
+  height: 65rpx;
+  border-radius: 30px;
+    background: red;
+    color: white;
+    padding-bottom: 2rpx;
+  font-size:28rpx;
+  /* margin-top: 20rpx; */
+  /* background-color: red;
+  color: white;
+  border-radius: 50%;  */
+}
+.btn1::after{ 
+	border: none
+}
